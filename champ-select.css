@@ -1,0 +1,180 @@
+html, 
+body {
+    height: 100%;
+background: transparent;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.anime {
+width: 100%;
+-webkit-animation-duration: 5s;
+-webkit-animation-delay: 2s;
+}
+
+.teams {
+-webkit-animation-duration: 5s;
+-webkit-animation-delay: 1.5s;
+}
+
+.left_team {
+  background-image: url('../teams/up.png'); background-size:cover;
+ background-repeat: no-repeat;
+  position: relative;
+  left: 200px;
+  top: 925px;
+  width: 155px;
+  height: 155px;
+  z-index: 94;
+}
+
+.right_team {
+  background-image: url('../teams/up.png'); background-size:cover;
+ background-repeat: no-repeat;  position: absolute;  left: 1765px;
+  top: 925px;
+  width: 155px;
+  height: 155px;
+  z-index: 94;
+}
+
+
+
+
+.left-ban-1 {
+  background-image: url('../champions/none.png');
+ background-size:cover;
+; background-repeat: no-repeat; position: absolute;
+  left: 390px;
+  top: 938px;
+  width: 60px;
+  height: 60px;
+  z-index: 55;
+}
+
+.left-ban-2 {
+  background-image: url('../champions/none.png'); background-size:cover;
+
+ background-repeat: no-repeat;
+  position: absolute;
+  left: 480px;
+  top: 938px;
+  width: 60px;
+  height: 60px;
+  z-index: 54;
+}
+
+.left-ban-3 {
+  background-image: url('../champions/taliyah.png'); background-size:cover;
+
+ background-repeat: no-repeat;
+  position: absolute;
+  left: 570px;
+  top: 938px;
+  width: 60px;
+  height: 60px;
+  z-index: 53;
+}
+
+.left-ban-4 {
+  background-image: url('../champions/none.png'); background-size:cover;
+
+ background-repeat: no-repeat;
+  position: absolute;
+  left: 525px;
+  top: 1008px;
+  width: 60px;
+  height: 60px;
+  z-index: 52;
+}
+
+.left-ban-5 {
+  background-image: url('../champions/camille.png'); background-size:cover;
+
+ background-repeat: no-repeat;
+  position: absolute;
+  left: 435px;
+  top: 1008px;
+  width: 60px;
+  height: 60px;
+  z-index: 51;
+}
+
+
+
+
+.right-ban-1 {
+  background-image: url('../champions/nidalee.png');
+ background-size:cover;
+; background-repeat: no-repeat;
+  position: absolute;
+  left: 1490px;
+  top: 938px;
+  width: 60px;
+  height: 60px;
+  z-index: 48;
+}
+
+.right-ban-2 {
+  background-image: url('../champions/skarner.png');
+ background-size:cover;
+; background-repeat: no-repeat;  position: absolute;
+  left: 1580px;
+  top: 938px;
+  width: 60px;
+  height: 60px;
+  z-index: 47;
+}
+
+.right-ban-3 {
+  background-image: url('../champions/xayah.png');
+ background-size:cover;
+; background-repeat: no-repeat;
+  position: absolute;
+  left: 1670px;
+  top: 938px;
+  width: 60px;
+  height: 60px;
+  z-index: 46;
+}
+
+.right-ban-4 {
+  background-image: url('../champions/kassadin.png');
+ background-size:cover;
+; background-repeat: no-repeat;
+  position: absolute;
+  left: 1625px;
+  top: 1008px;
+  width: 60px;
+  height: 60px;
+  z-index: 45;
+}
+
+.right-ban-5 {
+  background-image: url('../champions/yorick.png');
+ background-size:cover;
+; background-repeat: no-repeat;
+  position: absolute;
+  left: 1535px;
+  top: 1008px;
+  width: 60px;
+  height: 60px;
+  z-index: 44;
+}
+
+
+
+
+.bar-color {
+  background-image: url('../bars/color-bar.png');
+ background-size:cover;
+; background-repeat: no-repeat; position: absolute;
+  left: 0px;
+  top: 890px;
+  width: 1920px;
+  height: 190px;
+  z-index: -5;
+}
+
+}
